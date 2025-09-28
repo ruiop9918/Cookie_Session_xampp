@@ -321,14 +321,6 @@ bash
 
 /etc/php.ini
 ```
-__วิธีเช็ค__:
-สร้างไฟล์ ```phpinfo.php``` แล้วใส่:
-```php
-php
-
-<?php phpinfo(); ?>
-```
-- เปิดใน browser แล้วค้นคำว่า **Loaded Configuration File** → ตรงนั้นคือ path ของ ```php.ini```
 
 ---
 ## php.ini ตัวอย่าง (เหมาะกับทุกโปรเจค)
